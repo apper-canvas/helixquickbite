@@ -1,0 +1,94 @@
+[
+  {
+    "id": "ORD001",
+    "restaurantId": "1",
+    "restaurantName": "Spice Garden",
+    "items": [
+      {
+        "menuItemId": "1",
+        "name": "Butter Chicken",
+        "quantity": 1,
+        "price": 320,
+        "customizations": {"Spice Level": "Medium"},
+        "specialInstructions": ""
+      },
+      {
+        "menuItemId": "3",
+        "name": "Garlic Naan",
+        "quantity": 2,
+        "price": 80,
+        "customizations": {},
+        "specialInstructions": ""
+      }
+    ],
+    "total": 480,
+    "status": "delivered",
+    "address": {
+      "line1": "123 Main Street",
+      "line2": "Apartment 4B",
+      "city": "Bangalore",
+      "landmark": "Near Coffee Shop"
+    },
+    "placedAt": "2024-01-15T18:30:00Z",
+    "estimatedDelivery": "2024-01-15T19:15:00Z",
+    "deliveredAt": "2024-01-15T19:10:00Z"
+  },
+  {
+    "id": "ORD002",
+    "restaurantId": "2",
+    "restaurantName": "Pizza Corner",
+    "items": [
+      {
+        "menuItemId": "4",
+        "name": "Margherita Pizza",
+        "quantity": 1,
+        "price": 450,
+        "customizations": {"Size": "Large", "Crust": "Thin"},
+        "specialInstructions": "Extra cheese please"
+      }
+    ],
+    "total": 450,
+    "status": "preparing",
+    "address": {
+      "line1": "456 Park Avenue",
+      "line2": "",
+      "city": "Bangalore",
+      "landmark": "Opposite Metro Station"
+    },
+    "placedAt": "2024-01-16T12:15:00Z",
+    "estimatedDelivery": "2024-01-16T13:00:00Z"
+  },
+  {
+    "id": "ORD003",
+    "restaurantId": "4",
+    "restaurantName": "Burger Junction",
+    "items": [
+      {
+        "menuItemId": "8",
+        "name": "Classic Beef Burger",
+        "quantity": 2,
+        "price": 380,
+        "customizations": {"Add Ons": "Extra Cheese"},
+        "specialInstructions": ""
+      },
+      {
+        "menuItemId": "9",
+        "name": "Chicken Wings",
+        "quantity": 1,
+        "price": 280,
+        "customizations": {"Sauce": "BBQ"},
+        "specialInstructions": ""
+      }
+    ],
+    "total": 1040,
+    "status": "on_the_way",
+    "address": {
+      "line1": "789 Garden Road",
+      "line2": "Block C, Floor 3",
+      "city": "Bangalore",
+      "landmark": "Behind Shopping Mall"
+    },
+    "placedAt": "2024-01-16T19:45:00Z",
+    "estimatedDelivery": "2024-01-16T20:25:00Z"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "type": "Home",
+    "line1": "123 Main Street",
+    "line2": "Apartment 4B",
+    "city": "Bangalore",
+    "pincode": "560001",
+    "landmark": "Near Coffee Shop",
+    "isDefault": true
+  },
+  {
+    "id": "2",
+    "type": "Office",
+    "line1": "456 Tech Park",
+    "line2": "Building A, Floor 5",
+    "city": "Bangalore",
+    "pincode": "560037",
+    "landmark": "Opposite Metro Station",
+    "isDefault": false
+  },
+  {
+    "id": "3",
+    "type": "Other",
+    "line1": "789 Friends Place",
+    "line2": "",
+    "city": "Bangalore",
+    "pincode": "560025",
+    "landmark": "Near Park",
+    "isDefault": false
+  }
+]
